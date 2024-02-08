@@ -1,0 +1,58 @@
+let shopItemsData = [
+  {
+    id: 1,
+    title: "Guitar 1",
+    image: "images/guitar-1.jpg",
+    price: 4000,
+    desc: "Lorem ipsum sit amet consectetur adipisicing.",
+  },
+  {
+    id: 2,
+    title: "Guitar 2",
+    image: "images/guitar-2.jpg",
+    price: 4500,
+    desc: "Lorem ipsum sit amet consectetur adipisicing.",
+  },
+  {
+    id: 3,
+    title: "Guitar 3",
+    image: "images/guitar-3.jpg",
+    price: 4700,
+    desc: "Lorem ipsum sit amet consectetur adipisicing.",
+  },
+  {
+    id: 4,
+    title: "Guitar 4",
+    image: "images/guitar-4.jpg",
+    price: 3900,
+    desc: "Lorem ipsum sit amet consectetur adipisicing.",
+  },
+  {
+    id: 5,
+    title: "Guitar 5",
+    image: "images/guitar-5.jpg",
+    price: 4300,
+    desc: "Lorem ipsum sit amet consectetur adipisicing.",
+  },
+  {
+    id: 6,
+    title: "Guitar 6",
+    image: "images/guitar-6.jpg",
+    price: 4900,
+    desc: "Lorem ipsum sit amet consectetur adipisicing.",
+  },
+  {
+    id: 7,
+    title: "Guitar 7",
+    image: "images/guitar-7.jpg",
+    price: 5500,
+    desc: "Lorem ipsum sit amet consectetur adipisicing.",
+  },
+  {
+    id: 8,
+    title: "Guitar 8",
+    image: "images/guitar-8.jpg",
+    price: 4600,
+    desc: "Lorem ipsum sit amet consectetur adipisicing.",
+  },
+];
