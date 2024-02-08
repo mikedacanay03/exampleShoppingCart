@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guitar Store</title>
+    <link rel="stylesheet" href="src/style.css" />
+
+    <!-- cdn link of shopping cart icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- cdn getbootstrap icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="index.html">
+        <h3>Mohan's Guitar</h3>
+        <img src="images/guitar-logo.jpg" alt="" />
+      </a>
+
+      <a href="cart.html">
+        <div class="icon-cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+
+          <span id="cartAmount" class="cartAmount">0</span>
+        </div>
+      </a>
+      <!-- <img src="images/guitar-logo.jpg" alt="guitar-logo" /> -->
+    </div>
+
+    <div class="banner">
+      <img src="images/guitar-cover.jpg" alt="" />
+    </div>
+
+    <div class="shop-container">
+      <div class="shop" id="shop"></div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-details">
+        <div class="about">
+          <h3>About</h3>
+          <br />
+          <p>
+            Mohan's Guitar Store is a local distributor of quality and
+            manufactured guitar instrument.
+          </p>
+        </div>
+
+        <div class="contact">
+          <h3>Contact</h3>
+          <br />
+          <p>09654879012</p>
+          <p>abc@example.com</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <h4>
+          Copyright © 2024 Develop by: Michael Dacanay | All Rights Reserved
+        </h4>
+      </div>
+    </div>
+  </body>
+  <script src="src/data.js"></script>
+  <script src="src/main.js"></script>
+</html>
