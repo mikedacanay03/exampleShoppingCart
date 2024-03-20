@@ -278,7 +278,10 @@ div.navbar {
 .cart-Item {
   border: 2px solid gray;
   border-radius: 5px;
-  display: flex;
+  /*display: flex;*/
+  display: grid;
+  grid-template-columns: repeat(4, 22.5%);
+  gap: 30px;
 }
 .title-price-x {
   display: flex;
