@@ -39,6 +39,22 @@ div.navbar {
   top: 25px;
   margin: 0 5rem;
 }
+
+.nav-link {
+    transition: 0.6s ease;
+    font-size:18px;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #fefefe;
+    /* font-weight: 500; */
+}
+.nav-menu {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:60px;
+}
 .icon-cart {
   position: absolute;
   left: 80%;
