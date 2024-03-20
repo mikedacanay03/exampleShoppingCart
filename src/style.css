@@ -14,6 +14,91 @@ i {
   width: 5rem;
 }
 
+/* ************ style for contact form ********* */
+.contact {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background: #1f242d;
+   
+   
+}
+.contact h2 {
+    font-size: 40px;
+    color:#ededed;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    bottom:360px;
+    left:12%;
+}
+.contact form{
+    width:600px;
+    text-align: center;
+}
+form .input-box {
+    display:flex;
+    justify-content: space-between;
+    width:1000px;
+    
+}
+form .textarea-field {
+    width: 490px;
+}
+.input-box .input-field {
+    width: 48.5%;
+}
+.field .item {
+    width:100%;
+    padding:18px;
+    background: transparent;
+    border:2px solid #0ef;
+    outline: none;
+    border-radius:6px;
+    font-size:16px;
+    color:#ededed;
+    margin: 12px 0;
+}
+.field.error .item {
+    border-color: #d93025;
+}
+.field .item::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+.field .error {
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin: -5px 0 10px;
+    display:none;
+}
+.field.error .error {
+    display:block;
+}
+form .textarea-field .item {
+    resize:none;
+}
+form button {
+    padding:12px 32px;
+    background: #0ef;
+    border:none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 15px;
+    margin-left: -60px;
+}
+form button:hover{
+    box-shadow: none;
+}
+
 /* navbar styles */
 div.navbar {
   position: fixed;
